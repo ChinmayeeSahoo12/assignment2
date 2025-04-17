@@ -1,0 +1,130 @@
+{
+    "stats": [
+      { "title": "Views", "value": "721K", "change": 11.01, "positive": true ,"backgroundColor":"#E3F5FF"},
+      { "title": "Visits", "value": "367K", "change": 0.03, "positive": false , "backgroundColor":"#E5ECF6"},
+      { "title": "New Users", "value": "1156", "change": 15.03, "positive": true, "backgroundColor":"#E3F5FF" },
+      { "title": "Active Users", "value": "239K", "change": 6.08, "positive": true, "backgroundColor":"#E5ECF6" }
+    ],
+    "totalUsers": {
+      "currentValue": 3254598,
+      "chartData": [
+        { "month": "Jan", "currentYear": 10000000, "previousYear": 12000000 },
+        { "month": "Feb", "currentYear": 12000000, "previousYear": 13000000 },
+        { "month": "Mar", "currentYear": 15000000, "previousYear": 15000000 },
+        { "month": "Apr", "currentYear": 18000000, "previousYear": 20000000 },
+        { "month": "May", "currentYear": 23000000, "previousYear": 25000000 },
+        { "month": "Jun", "currentYear": 28000000, "previousYear": 27000000 },
+        { "month": "Jul", "currentYear": 30000000, "previousYear": 26000000 }
+      ]
+    },
+    "trafficByWebsite": [
+      { "name": "Google", "value": 35 },
+      { "name": "YouTube", "value": 25 },
+      { "name": "Instagram", "value": 15 },
+      { "name": "Pinterest", "value": 10 },
+      { "name": "Facebook", "value": 8 },
+      { "name": "Twitter", "value": 5 },
+      { "name": "Tumblr", "value": 2 }
+    ],
+    "trafficByDevice": [
+      { "name": "Linux", "value": 18 },
+      { "name": "Mac", "value": 23 },
+      { "name": "iOS", "value": 20 },
+      { "name": "Windows", "value": 22 },
+      { "name": "Android", "value": 10 },
+      { "name": "Other", "value": 7 }
+    ],
+    "trafficByLocation": [
+      { "name": "United States", "value": 38.6 },
+      { "name": "Canada", "value": 22.5 },
+      { "name": "Mexico", "value": 30.8 },
+      { "name": "Other", "value": 8.1 }
+    ],
+    "activities": [
+      {
+        "id": 1,
+        "type": "bug",
+        "message": "You have a bug that needs...",
+        "time": "Just now",
+        "user": {
+          "name": "User1",
+          "avatar": "https://cdn-icons-png.flaticon.com/512/219/219986.png"
+        }
+      },
+      {
+        "id": 2,
+        "type": "version",
+        "message": "Released a new version",
+        "time": "39 minutes ago",
+        "user": {
+          "name": "User2",
+          "avatar": "/api/placeholder/40/40"
+        }
+      },
+      {
+        "id": 3,
+        "type": "bug",
+        "message": "Submitted a bug",
+        "time": "12 hours ago",
+        "user": {
+          "name": "User3",
+          "avatar": "/api/placeholder/40/40"
+        }
+      },
+      {
+        "id": 4,
+        "type": "data",
+        "message": "Modified A data in Page X",
+        "time": "Today, 11:59 AM",
+        "user": {
+          "name": "User4",
+          "avatar": "/api/placeholder/40/40"
+        }
+      },
+      {
+        "id": 5,
+        "type": "delete",
+        "message": "Deleted a page in Project X",
+        "time": "Feb 2, 2023",
+        "user": {
+          "name": "User5",
+          "avatar": "/api/placeholder/40/40"
+        }
+      }
+    ],
+    "contacts": [
+      { "id": 1, "name": "Natali Craig", "avatar": "https://cdn-icons-png.flaticon.com/512/219/219986.png" },
+      { "id": 2, "name": "Drew Cano", "avatar": "/api/placeholder/40/40" },
+      { "id": 3, "name": "Orlando Diggs", "avatar": "/api/placeholder/40/40" },
+      { "id": 4, "name": "Andi Lane", "avatar": "/api/placeholder/40/40" },
+      { "id": 5, "name": "Kate Morrison", "avatar": "/api/placeholder/40/40" },
+      { "id": 6, "name": "Koray Okumus", "avatar": "/api/placeholder/40/40" }
+    ],
+    "notifications": [
+      {
+        "id": 1,
+        "type": "bug",
+        "message": "You have a bug that needs...",
+        "time": "Just now"
+      },
+      {
+        "id": 2,
+        "type": "user",
+        "message": "New user registered",
+        "time": "39 minutes ago"
+      },
+      {
+        "id": 3,
+        "type": "bug",
+        "message": "You have a bug that needs...",
+        "time": "12 hours ago"
+      },
+      {
+        "id": 4,
+        "type": "subscription",
+        "message": "Andi Lane subscribed to you",
+        "time": "Today, 11:59 AM"
+      }
+    ]
+  }
+  

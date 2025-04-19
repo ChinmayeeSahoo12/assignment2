@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import {Drawer,List,ListItem,ListItemIcon,ListItemText,Box,Typography,Collapse,} from "@mui/material";
-import {ExpandLess,ExpandMore,Dashboard as DashboardIcon,Folder as FolderIcon,Book as BookIcon,AccountCircle as AccountCircleIcon,Business as BusinessIcon,Article as ArticleIcon,Group as GroupIcon,
-} from "@mui/icons-material";
-import { DashboardSvg, EcommerceSvg } from "../svg";
+import {ExpandLess,ExpandMore} from "@mui/icons-material";
+import { AccountSvg, BlogSvg, CorporateSvg, DashboardSvg, EcommerceSvg, OnlineSvg, ProjectSvg, SocialSvg, UserProfileSvg } from "../svg";
 import Icon from "../assets/IconSet.png";
 import { useNavigate } from "react-router-dom";
 
@@ -34,6 +33,7 @@ const LeftSide = () => {
           color: "#1c1c1c",
           // overflow: 'auto',
           // height: '100vh',
+          cursor: "pointer"
         },
       }}
     >
@@ -96,13 +96,13 @@ const LeftSide = () => {
         </ListItem>
         <ListItem button sx={{ display: "flex", alignItems: "center", gap: 2 }}>
           <ListItemIcon sx={{ minWidth: 0 }}>
-            <FolderIcon />
+            <ProjectSvg />
           </ListItemIcon>
           <ListItemText primary="Projects" />
         </ListItem>
         <ListItem button sx={{ display: "flex", alignItems: "center", gap: 2 }}>
           <ListItemIcon sx={{ minWidth: 0 }}>
-            <BookIcon />
+            <OnlineSvg />
           </ListItemIcon>
           <ListItemText primary="Online Courses" />
         </ListItem>
@@ -125,7 +125,7 @@ const LeftSide = () => {
             </ListItemIcon>
           )}
           <ListItemIcon sx={{ minWidth: 0, mr: 2 }}>
-            <AccountCircleIcon />
+            <UserProfileSvg />
           </ListItemIcon>
           <ListItemText primary="User Profile" />
         </ListItem>
@@ -158,25 +158,25 @@ const LeftSide = () => {
         {/* Other Pages */}
         <ListItem button sx={{ display: "flex", alignItems: "center", gap: 2 }}>
           <ListItemIcon sx={{ minWidth: 0 }}>
-            <BusinessIcon />
+            <AccountSvg />
           </ListItemIcon>
           <ListItemText primary="Account" />
         </ListItem>
         <ListItem button sx={{ display: "flex", alignItems: "center", gap: 2 }}>
           <ListItemIcon sx={{ minWidth: 0 }}>
-            <ArticleIcon />
+            <CorporateSvg />
           </ListItemIcon>
           <ListItemText primary="Corporate" />
         </ListItem>
         <ListItem button sx={{ display: "flex", alignItems: "center", gap: 2 }}>
           <ListItemIcon sx={{ minWidth: 0 }}>
-            <ArticleIcon />
+            <BlogSvg />
           </ListItemIcon>
           <ListItemText primary="Blog" />
         </ListItem>
         <ListItem button sx={{ display: "flex", alignItems: "center", gap: 2 }}>
           <ListItemIcon sx={{ minWidth: 0 }}>
-            <GroupIcon />
+            <SocialSvg />
           </ListItemIcon>
           <ListItemText primary="Social" />
         </ListItem>

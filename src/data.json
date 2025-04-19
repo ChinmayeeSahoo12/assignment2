@@ -58,7 +58,7 @@
         "time": "39 minutes ago",
         "user": {
           "name": "User2",
-          "avatar": "/api/placeholder/40/40"
+          "avatar":"https://cdn-icons-png.flaticon.com/512/219/219986.png"
         }
       },
       {
@@ -68,7 +68,7 @@
         "time": "12 hours ago",
         "user": {
           "name": "User3",
-          "avatar": "/api/placeholder/40/40"
+          "avatar": "https://cdn-icons-png.flaticon.com/512/219/219986.png"
         }
       },
       {
@@ -78,7 +78,7 @@
         "time": "Today, 11:59 AM",
         "user": {
           "name": "User4",
-          "avatar": "/api/placeholder/40/40"
+          "avatar": "https://cdn-icons-png.flaticon.com/512/219/219986.png"
         }
       },
       {
@@ -88,42 +88,46 @@
         "time": "Feb 2, 2023",
         "user": {
           "name": "User5",
-          "avatar": "/api/placeholder/40/40"
+          "avatar": "https://cdn-icons-png.flaticon.com/512/219/219986.png"
         }
       }
     ],
     "contacts": [
       { "id": 1, "name": "Natali Craig", "avatar": "https://cdn-icons-png.flaticon.com/512/219/219986.png" },
-      { "id": 2, "name": "Drew Cano", "avatar": "/api/placeholder/40/40" },
-      { "id": 3, "name": "Orlando Diggs", "avatar": "/api/placeholder/40/40" },
-      { "id": 4, "name": "Andi Lane", "avatar": "/api/placeholder/40/40" },
-      { "id": 5, "name": "Kate Morrison", "avatar": "/api/placeholder/40/40" },
-      { "id": 6, "name": "Koray Okumus", "avatar": "/api/placeholder/40/40" }
+      { "id": 2, "name": "Drew Cano", "avatar": "https://cdn-icons-png.flaticon.com/512/219/219986.png" },
+      { "id": 3, "name": "Orlando Diggs", "avatar": "https://cdn-icons-png.flaticon.com/512/219/219986.png" },
+      { "id": 4, "name": "Andi Lane", "avatar": "https://cdn-icons-png.flaticon.com/512/219/219986.png" },
+      { "id": 5, "name": "Kate Morrison", "avatar": "https://cdn-icons-png.flaticon.com/512/219/219986.png" },
+      { "id": 6, "name": "Koray Okumus", "avatar": "https://cdn-icons-png.flaticon.com/512/219/219986.png" }
     ],
     "notifications": [
       {
         "id": 1,
         "type": "bug",
         "message": "You have a bug that needs...",
-        "time": "Just now"
+        "time": "Just now",
+        "avatar": "https://cdn-icons-png.flaticon.com/512/219/219986.png"
       },
       {
         "id": 2,
         "type": "user",
         "message": "New user registered",
-        "time": "39 minutes ago"
+        "time": "39 minutes ago",
+        "avatar": "https://cdn-icons-png.flaticon.com/512/219/219986.png"
       },
       {
         "id": 3,
         "type": "bug",
         "message": "You have a bug that needs...",
-        "time": "12 hours ago"
+        "time": "12 hours ago",
+        "avatar": "https://cdn-icons-png.flaticon.com/512/219/219986.png"
       },
       {
         "id": 4,
         "type": "subscription",
         "message": "Andi Lane subscribed to you",
-        "time": "Today, 11:59 AM"
+        "time": "Today, 11:59 AM",
+        "avatar": "https://cdn-icons-png.flaticon.com/512/219/219986.png"
       }
     ]
   }

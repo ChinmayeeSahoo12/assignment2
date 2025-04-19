@@ -1,4 +1,3 @@
-// components/TrafficByWebsite.jsx
 import React from 'react';
 import { Card, CardContent, Typography, Box, LinearProgress } from '@mui/material';
 

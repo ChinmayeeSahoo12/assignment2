@@ -13,11 +13,13 @@ import GridViewIcon from "@mui/icons-material/GridView";
 import HistoryIcon from "@mui/icons-material/History";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import { Header1Svg, Header2Svg, Header3Svg, Header4svg, Icon1Svg, StarSvg } from "../svg"; // Assuming these are valid custom icons
+import { useNavigate } from "react-router-dom";
 
 const LdrawerWidth = 240;
 const RdrawerWidth = 240;
 
 export default function Header() {
+  const navigation = useNavigate();
   return (
     <Box
       sx={{
@@ -42,7 +44,11 @@ export default function Header() {
       <Box sx={{ display: "flex", alignItems: "center", gap: 1.5 }}>
         <Icon1Svg sx={{ color: "#1c1c1c" }} />
         <StarSvg sx={{ color: "#1c1c1c" }} />
-        <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+        <Box sx={{ display: "flex", alignItems: "center", gap: 1, cursor: "pointer" }}
+        onClick={()=>{
+          navigation('/')
+        }}
+        >
           <Typography variant="body2" color="text.secondary">
             Dashboards
           </Typography>
@@ -51,10 +57,13 @@ export default function Header() {
           </Typography>
           <Typography
             variant="body2"
-            sx={{ fontWeight: 500, color: "#1c1c1c" }}
+            sx={{ fontWeight: 500, color: "#1c1c1c", cursor: "pointer" }}
+            onClick={()=>{
+              navigation('/table')
+            }}
           >
             Default
-          </Typography>
+          </Typography >
         </Box>
       </Box>
 

@@ -14,14 +14,17 @@ const Card = ({item}) => {
     }}>
       <Box sx={{
         pb:2,
-        textAlign:'left'
+        textAlign:'left',
+        fontSize: '14px',
+        fontWeight: 600
       }}>{item?.title}</Box>
       <Box sx={{
         display:'flex',
         alignItems:'center',
-        justifyContent:'space-between'
+        justifyContent:'space-between',
       }}>
-        <Box>{item?.value}</Box>
+        <Box sx={{fontSize: '24px',
+        fontWeight: 600}}>{item?.value}</Box>
         <Box>+{item?.change}%</Box>
       </Box>
     </Box>
